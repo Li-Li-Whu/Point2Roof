@@ -29,9 +29,9 @@ def build_dataloader(path, batch_size, data_cfg, workers=16, logger=None, traini
     path += '/train.txt' if training else '/test.txt'
 
     if training:
-        trasform = GaussianTransform(sigma=(0.005, 0.015), clip = 10, p = 0.8)
+        trasform = GaussianTransform(sigma=(0.005, 0.010), clip = 10, p = 0.8)
     else:
-        trasform = GaussianTransform(sigma= (0.005, 0.015), clip = 10, p = 0.0)
+        trasform = GaussianTransform(sigma= (0.005, 0.010), clip = 10, p = 0.0)
 
     dataset = RoofN3dDataset(path, trasform, data_cfg, logger)
     dataloader = DataLoader(

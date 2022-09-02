@@ -20,7 +20,7 @@ def get_scheduler(optim, last_epoch):
 
 def parse_config():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_path', type=str, default='../DeepRoof', help='dataset path')
+    parser.add_argument('--data_path', type=str, default='../GithubDeepRoof', help='dataset path')
     parser.add_argument('--cfg_file', type=str, default='./model_cfg.yaml', help='model config for training')
     parser.add_argument('--batch_size', type=int, default=64, help='batch size for training')
     parser.add_argument('--gpu', type=str, default='1', help='gpu for training')

@@ -2,7 +2,7 @@ DATA:
   NPOINT: 1024
 MODEL:
   PointNet2:
-    PosRadius: 0.10
+    PosRadius: 0.15
     LossWeight: {
       'cls_weight': 1.0,
       'reg_weight': 1.0
