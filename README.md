@@ -36,7 +36,7 @@ You can install the missed dependencies according to the compilation errors.
 
 ## Train and test
 After downloading our dataset and code, you need to prepare your train.txt and test.txt.
-We have provided the train.txt and test.txt used in our enviroment. Then, your can run train.py and test.py.
+We have provided the train.txt and test.txt used in our enviroment. Then, your can run train.py and test.py. checkpoint_epoch_90.pth is our trained model.
 
 ## Results
 
