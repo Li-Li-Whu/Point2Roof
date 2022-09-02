@@ -11,7 +11,6 @@ This manuscript has been accepted by ISPRS Journal.
 To train and test DeepRoof, we construct a new dataset of roof building 3D reconstruction. To further evaluate the performance of the proposed Point2Roof, we also construct a small real dataset. 
 The real building point clouds are selected from [RoofN3D](https://github.com/sarthakTUM/roofn3d). 
 Now, this dataset only has 500 buildings. We will further expand this real dataset. 
-The final real dataset will be opened as soon as possible. 
 
 The synthetic and real dataset can be downloaded from [[baiduyun](https://pan.baidu.com/s/1Esbpnp30fWHA1_7eXwcYtQ) :nou3]. 
 You can directly unzip the file to obtain all train and test sets. 

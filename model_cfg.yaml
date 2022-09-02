@@ -1,0 +1,26 @@
+DATA:
+  NPOINT: 1024
+MODEL:
+  PointNet2:
+    PosRadius: 0.10
+    LossWeight: {
+      'cls_weight': 1.0,
+      'reg_weight': 1.0
+    }
+  ClusterRefineNet:
+    ScoreThresh: 0.5
+    MatchRadius: 0.2
+    Cluster:
+      eps: 0.05
+      min_pts: 5
+    RefineSA:
+      Radii: [0.1, 0.2]
+      Nsamples: [16, 16]
+      MLPs: [[128, 128], [128, 128]]
+    LossWeight: {
+      'reg_weight': 1.0
+    }
+  EdgeAttentionNet:
+    LossWeight: {
+      'cls_weight': 1.0,
+    }
