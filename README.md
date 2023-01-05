@@ -12,7 +12,7 @@ To train and test DeepRoof, we construct a new dataset of roof building 3D recon
 The real building point clouds are selected from [RoofN3D](https://github.com/sarthakTUM/roofn3d). 
 Now, this dataset only has 500 buildings. We will further expand this real dataset. 
 
-The synthetic and real dataset can be downloaded from [[baiduyun](https://pan.baidu.com/s/1Esbpnp30fWHA1_7eXwcYtQ) :nou3]. 
+The synthetic and real dataset can be downloaded from [[baiduyun](https://pan.baidu.com/s/1Esbpnp30fWHA1_7eXwcYtQ) :nou3] or [[GoogleDrive](https://drive.google.com/drive/folders/1d8y2UxC9TUirgk6L1VbP-KXg3YbDgWYy?usp=sharing)]. 
 You can directly unzip the file to obtain all train and test sets. 
 For each sample, polygon.obj is the groud truth model, and points.xyz is the roof point clouds. 
 
